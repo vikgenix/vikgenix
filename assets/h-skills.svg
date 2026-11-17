@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="84" viewBox="0 0 900 84" fill="none">
+<style>
+text{font-family:'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif} .m{font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes glow{0%,100%{opacity:.25}50%{opacity:.9}}
+@keyframes sweep{from{transform:translateX(-320px)}to{transform:translateX(1220px)}}
+.blink{animation:blink 1.1s step-end infinite} .glow{animation:glow 2.2s ease-in-out infinite}
+.sweep{animation:sweep 7s ease-in-out infinite}
+@keyframes run{from{transform:translateX(0)}to{transform:translateX(900px)}}.run{animation:run 6s cubic-bezier(.6,0,.4,1) infinite}
+</style>
+<defs>
+<pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#fff" fill-opacity=".055"/></pattern>
+<linearGradient id="amber" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffaf41"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffaf41" stop-opacity="0"/><stop offset=".5" stop-color="#ffaf41" stop-opacity=".9"/><stop offset="1" stop-color="#ffaf41" stop-opacity="0"/></linearGradient>
+<linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07030f"/><stop offset=".5" stop-color="#1a0f33"/><stop offset="1" stop-color="#7a4512"/></linearGradient>
+<filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="45"/></filter>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".55"/></filter>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffaf41"/><stop offset=".6" stop-color="#f97316" stop-opacity=".35"/><stop offset="1" stop-color="#f97316" stop-opacity="0"/></linearGradient><linearGradient id="amberD" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#ea580c"/></linearGradient>
+</defs>
+<text class="m" x="1" y="22" font-size="12.5" fill="#7d8590">vikgenix@portfolio ~ % <tspan fill="#f59e0b">cat skills.txt</tspan></text><rect class="blink" x="287" y="12" width="7" height="13" fill="#f59e0b"/><text x="0" y="60" font-size="28" font-weight="800" fill="url(#amberD)" letter-spacing="-.6">Tech Stack</text><text class="m" x="166" y="59" font-size="12" fill="#7d8590">// tools of the trade</text><rect x="0" y="76" width="900" height="1.5" fill="url(#fade)"/><g class="run"><circle cx="0" cy="76.75" r="2.6" fill="#f97316"/><circle cx="0" cy="76.75" r="6" fill="#f97316" opacity=".25"/></g></svg>

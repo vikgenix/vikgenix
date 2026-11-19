@@ -12,7 +12,7 @@
 <a href="https://leetcode.com/u/vikgenix"><img src="./assets/btn-leetcode.svg" height="52" alt="LeetCode" /></a>
 <a href="https://codeforces.com/profile/vikrantyadav"><img src="./assets/btn-codeforces.svg" height="52" alt="Codeforces" /></a>
 <a href="https://codechef.com/users/vikrantyadav"><img src="./assets/btn-codechef.svg" height="52" alt="CodeChef" /></a>
-<a href="https://x.com/vikrantyadav"><img src="./assets/btn-x.svg" height="52" alt="X / Twitter" /></a>
+<!-- <a href="https://x.com/vikrantyadav"><img src="./assets/btn-x.svg" height="52" alt="X / Twitter" /></a> -->
 
 <br/><br/>
 
